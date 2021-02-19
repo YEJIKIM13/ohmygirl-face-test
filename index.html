@@ -56,7 +56,7 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light nav-distance">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">닮은꼴 테스트 _ 오마이걸</a>
+                <a class="navbar-brand" href="https://omgresembletest.netlify.app">오마이걸 닮은꼴 찾기</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -71,33 +71,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="https://omgresembletest.netlify.app">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="navbarDropdown"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-                                >Disabled</a
-                            >
+                            <a class="nav-link active" aria-current="page" href="https://animalface.site/ko/index.html">동물상 테스트</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -175,36 +152,44 @@
                     <button
                         type="button p-2"
                         class="try-again-btn"
-                        onclick="gaReload1();"
-                        data-toggle="modal"
-                        data-target="#adModal"
+                        onclick="gaReload1()"
                     >
                         <span class="try-again-text">다른 사진으로 재시도</span>
                     </button>
                 </div>
             </div>
         </div>
+        <div class="announce">
+            <span class="announce-photo">* 사진은 어디에도 저장되지 않습니다 *</span>
+        </div>
 
         <footer class="footer pt-5 container d-flex justify-content-center">
             <div>
-                <p>lerry) 해당 서비스는 오마이걸 멤버별 사진을 인공지능에게 학습시켜 닮은 꼴을 찾아주는 서비스입니다. 재미로 즐겨주세요.</p>
+                <p>해당 서비스는 오마이걸 멤버별 사진을 인공지능에게 학습시켜 닮은 꼴을 찾아주는 서비스입니다.<br>재미로 즐겨주세요 :) *lerry*</p>
                 <p>&copy; 조코딩 JoCoding 2020. All Rights Reserved. </p>
             </div>
         </footer>
 
         <!-- Optional JavaScript; choose one of the two! -->
         <script>
+            function gaReload() {
+                gtag('event', '다른 사진으로 재시도', {
+                    'event_category': '다른 사진으로 재시도'
+                });
+                window.location.reload();
+            }
             function gaReload1() {
                 gtag('event', '다른 사진으로 재시도 1차', {
-                    event_category: '다른 사진으로 재시도',
+                    'event_category': '다른 사진으로 재시도'
                 });
             }
             function gaReload2() {
                 gtag('event', '다른 사진으로 재시도 2차', {
-                    event_category: '다른 사진으로 재시도',
+                    'event_category': '다른 사진으로 재시도'
                 });
                 window.location.reload();
             }
+    
         </script>
         <script>
             (function () {

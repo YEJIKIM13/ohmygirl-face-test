@@ -409,6 +409,10 @@ h3 {
     color: rgba(27, 175, 234, 1);
     font-size: 1.2rem;
 }
+.announce-photo {
+    text-align: center;
+    font-size: 1rem; 
+}
 
 /* gender */
 input#gender {
@@ -493,4 +497,13 @@ input:checked + label > .knob > i:before {
 
 .ad-banner {
     max-width: 320px;
+}
+.footer {
+    font-size: 0.5rem;
+    text-align: center;
+}
+.try-again-btn {
+    border-radius: 40px;
+    border: solid 1.5px #35465d;
+    background-color: #35465d;
 }
