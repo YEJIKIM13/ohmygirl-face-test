@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous"
+        />
+        <title>내 안의 오마이걸 찾기</title>
+        <meta name="title" content="오마이걸 닮은꼴 테스트" />
+        <meta
+            name="subject"
+            content="찾았다 (나랑 닮은) 오마이걸! 나와 닮은 오마이걸 멤버를 인공지능 테스트를 통해 찾아보세요!"
+        />
+        <meta
+            name="keywords"
+            content="오마이걸 닮은꼴 테스트, 인공지는 사진 테스트, 오마이걸, 얼굴상 테스트, 내 안의 오마이걸, 찾았다 오마이걸, 얼굴로 보는 닮은꼴 테스트, 오마이걸 효정, 오마이걸 미미, 오마이걸 유아, 오마이걸 승희, 오마이걸 지호, 오마이걸 비니, 오마이걸 아린, AI 테스트, 사진 테스트, 효정, 미미, 유아, 승희, 지호, 비니, 아린, 인공지능, 연예인, 연예인 닮은꼴 찾기"
+        />
+        <meta name="author" content="lerry" />
+        <link rel="stylesheet" href="style.css" />
+
+        <meta
+            property="og:description"
+            content="찾았다, 오마이걸! 얼굴로 보는 인공지능 오마이걸 닮은꼴 테스트, 내 안의 숨겨진 오마이걸을 찾아보세요! 사진 데이터로 학습한 인공지능이 나의 얼굴에 숨어 있는 오마이걸 멤버를 찾아드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다."
+        />
+        <meta
+            property="og:image"
+            content="#"
+        />
+        <link rel="shortcut icon" href="img/omg.ico" type="image/x-icon">
+        <link rel="icon" href="img/omg.ico" type="image/x-icon">
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-602fa54a2a905cbb"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-145482737-6');
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light nav-distance">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">닮은꼴 테스트 _ 오마이걸</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+                                >Disabled</a
+                            >
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <section class="section">
+            <h1 class="title">오마이걸 닮은꼴 테스트</h1>
+            <h3 class="subtitle">찾아라, 오마이걸! 내 안에 숨겨진 오마이걸 멤버는?</h3>
+        </section>
+        <section class="youtube">
+            <div class="container youtube-cover d-flex flex-row-reverse">
+                <a
+                    href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg"
+                    class="youtube-link"
+                >
+                    제작도움: 조코딩 유튜브
+                </a>
+            </div>
+        </section>
+        <h3 class="pb-2 d-flex justify-content-center">성별을 선택하세요</h3>
+        <section class="d-flex justify-content-center">
+            <p class="d-flex align-items-center pr-3">여자</p>
+            <div>
+                <input type="checkbox" id="gender" />
+                <label for="gender">
+                    <span class="knob">
+                        <i></i>
+                    </span>
+                </label>
+            </div>
+            <p class="d-flex align-items-center pl-3">남자</p>
+        </section>
+
+        <script
+            class="jsbin"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+        ></script>
+        <div class="container file-upload">
+            <div class="image-upload-wrap">
+                <input
+                    class="file-upload-input"
+                    type="file"
+                    onchange="readURL(this);"
+                    accept="image/*"
+                />
+                <div class="drag-text">
+                    <img src="img/iconmonstr-upload-thin.svg" class="mt-5 upload" />
+                    <h3 class="mb-5 upload-text">얼굴 사진을<br>업로드하세요!</h3>
+                </div>
+            </div>
+            <div class="file-upload-content">
+                <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+
+                <div id="loading" class="animated bounce">
+                <div class="spinner-border text-warning" role="status">
+                    <span class="sr-only visually-hidden">Loading...</span>
+                </div>
+                <p class="text-center">AI가 당신과 닮은 오마이걸 멤버를 분석중입니다.</p>
+                </div>
+                <p class="result-message"></p>
+                <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+            
+                <div class="pt-3 image-title-wrap">
+                    <button
+                        type="button p-2"
+                        class="try-again-btn"
+                        onclick="gaReload1();"
+                        data-toggle="modal"
+                        data-target="#adModal"
+                    >
+                        <span class="try-again-text">다른 사진으로 재시도</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+            integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+            integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+        <script>
+            function gaReload1() {
+                gtag('event', '다른 사진으로 재시도 1차', {
+                    event_category: '다른 사진으로 재시도',
+                });
+            }
+            function gaReload2() {
+                gtag('event', '다른 사진으로 재시도 2차', {
+                    event_category: '다른 사진으로 재시도',
+                });
+                window.location.reload();
+            }
+        </script>
+        <script>
+            (function () {
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://jocoding.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript
+            >Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+
+        <script>
+            function readURL(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('.image-upload-wrap').hide();
+                        $('#loading').show();
+                        $('.file-upload-image').attr('src', e.target.result);
+                        $('.file-upload-content').show();
+                        $('.image-title').html(input.files[0].name);
+                    };
+
+                    reader.readAsDataURL(input.files[0]);
+                    init().then(() => {
+                        predict();
+                        $('#loading').hide();
+                    });
+                } else {
+                    removeUpload();
+                }
+            }
+
+            function removeUpload() {
+                $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+                $('.file-upload-content').hide();
+                $('.image-upload-wrap').show();
+            }
+            $('.image-upload-wrap').bind('dragover', function () {
+                $('.image-upload-wrap').addClass('image-dropping');
+            });
+            $('.image-upload-wrap').bind('dragleave', function () {
+                $('.image-upload-wrap').removeClass('image-dropping');
+            });
+        </script>
+        <script type="text/javascript">
+            // More API functions here:
+            // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
+
+            // the link to your model provided by Teachable Machine export panel
+            let URL = 'https://teachablemachine.withgoogle.com/models/VD0EmXbq2/';
+
+            let model, webcam, labelContainer, maxPredictions;
+
+            // Load the image model and setup the webcam
+            async function init() {
+                if (document.getElementById('gender').checked) {
+                    URL = URL;
+                } else {
+                    URL = URL;
+                }
+                const modelURL = URL + 'model.json';
+                const metadataURL = URL + 'metadata.json';
+
+                model = await tmImage.load(modelURL, metadataURL);
+                maxPredictions = model.getTotalClasses();
+
+                labelContainer = document.getElementById('label-container');
+                for (let i = 0; i < maxPredictions; i++) {
+                    // and class labels
+                    var element = document.createElement('div');
+                    element.classList.add('d-flex');
+                    labelContainer.appendChild(element);
+                }
+            }
+
+            // run the webcam image through the image model
+            async function predict() {
+                // predict can take in an image, video or canvas html element
+                var image = document.getElementById('face-image');
+                const prediction = await model.predict(image, false);
+                prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+                console.log(prediction[0].className);
+                var resultTitle, resultExplain, resultColor;
+                switch (prediction[0].className) {
+                    case 'HYOJUNG':
+                        resultTitle = 'ꉂꉂ(ᵔᗜᵔ*) 스마일 캔디리더 효정';
+                        resultExplain =
+                            '당신과 닮은 오마이걸의 멤버는 효정! 빵긋빵긋 방실방실 밝은 인상으로 주위를 기운차게 만드는 에너자이저, 상견례 프리패스상! 당신의 웃음으로 세상은 오늘도 한층 밝아졌습니다.';
+                        resultColor = '어울리는 색상: 싱그러운 초록';
+                        break;
+                    case 'YOOA':
+                        resultTitle = '(❀╹◡╹) 컨셉 장인 유아';
+                        resultExplain =
+                            '당신과 닮은 오마이걸의 멤버는 유아! 푸른 초원 같은 매력의 소유자이지만, 체리마루와 발챙이같은 반전매력이 있습니다. 인형같은 외모와 몽환적인 아우라로 주위 사람을 홀려버릴 수 있으니 주의할 것!';
+                        resultColor = '어울리는 색상: 열정적인 빨강';
+                        break;
+                    case 'SEUNGHEE':
+                        resultTitle = '٩(๑^∀^๑)۶ 재간둥이 승희';
+                        resultExplain =
+                            '당신과 닮은 오마이걸의 멤버는 승희! 귀엽고 사랑스러운 매력을 가진 당신은 Born to be 재간둥이, 인싸 중에 인싸! 넘치는 끼와 따뜻한 마음으로 주위를 행복하게 만듭니다.';
+                        resultColor = '어울리는 색상: 따사로운 노랑';
+                        break;
+                    case 'MIMI':
+                        resultTitle = '(¬‿¬) 걸크러시 반전매력 미미';
+                        resultExplain =
+                            '당신과 닮은 오마이걸의 멤버는 미미! 카리스마 넘치는 당신은 다재다능 사기캐. 포스 넘치는 모습이다가도 매력적인 미소로 세상을 환하게 만드는 재주가 있습니다. 혹시 당신도 커피와 칙촉 위즐을 좋아하는지..';
+                        resultColor = '어울리는 색상: 밤하늘 속 남색';
+                        break;
+                    case 'BINNIE':
+                        resultTitle = '!(•̀ᴗ•́)و 똑순이 비니';
+                        resultExplain =
+                            '당신과 닮은 오마이걸의 멤버는 비니! 뚜렷한 이목구비와 특유의 서늘한 분위기로 강렬한 인상을 남깁니다. 똑부러지지만 사려 깊고 공감 능력이 좋은 당신은 자타공인 명언 제조기! 듬직한 뿌리 깊은 나무!';
+                        resultColor = '어울리는 색상: 품위있는 보라';
+                        break;
+                    case 'JIHO':
+                        resultTitle = '٩(๑❛ᴗ❛๑)۶ 엔돌핀 지호';
+                        resultExplain =
+                            '당신과 닮은 오마이걸의 멤버는 지호! 청량하고 시원시원한 웃음으로 세상을 활기차게 하는 엔돌핀. 반짝반짝 빛나는 매력에 걸맞게 당신은 총명함과 비범함 또한 갖춘 맹수, 아니.. 인재입니다! 눈썰미와 판단력이 좋은 것은 덤!';
+                        resultColor = '어울리는 색상: 청량한 파랑';
+                        break;
+                    case 'ARIN':
+                        resultTitle = '٩(๑˃̵ᴗ˂̵)و 사랑둥이 아린';
+                        resultExplain =
+                            '당신과 닮은 오마이걸의 멤버는 아린! 귀엽고 사랑스러운 당신은 존재 자체만으로 주위를 행복하게 하는 해피 바이러스입니다. 발랄한 이면에는 차분하고 속 깊은 모습이 자리잡고 있는데, 이 갭 차이로 지구를 부술 수도 있습니다.';
+                        resultColor = '어울리는 색상: 깨끗한 투명';
+                        break;
+                    default:
+                        resultTitle = '알 수 없음';
+                        resultExplain = '';
+                        resultColor = '';
+                }
+                
+                var title =
+                    "<div class='" +
+                    prediction[0].className +
+                    "-omg-title'>" +
+                    resultTitle +
+                    '</div>';
+                var explain = "<div class='omg-explain pt-2'>" + resultExplain + '</div>';
+                var color =
+                    "<div class='" +
+                    prediction[0].className +
+                    "-omg-color pt-2 pb-2'>" +
+                    resultColor +
+                    '</div>';
+                $('.result-message').html(title + explain + color);
+                var barWidth;
+                for (let i = 0; i < maxPredictions; i++) {
+                    if (prediction[i].probability.toFixed(2) > 0.1) {
+                        barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
+                    } else if (prediction[i].probability.toFixed(2) >= 0.01) {
+                        barWidth = '4%';
+                    } else {
+                        barWidth = '2%';
+                    }
+                    var labelTitle;
+                    switch (prediction[i].className) {
+                        case 'HYOJUNG':
+                            labelTitle = '효정';
+                            break;
+                        case 'YOOA':
+                            labelTitle = '유아';
+                            break;
+                        case 'SEUNGHEE':
+                            labelTitle = '승희';
+                            break;
+                        case 'MIMI':
+                            labelTitle = '미미';
+                            break;
+                        case 'BINNIE':
+                            labelTitle = '비니';
+                            break;
+                        case 'JIHO':
+                            labelTitle = '지호';
+                            break;
+                        case 'ARIN':
+                            labelTitle = '아린';
+                            break;
+                        default:
+                            labelTitle = '알수없음';
+                    }
+                    var label =
+                        "<div class='omg-label d-flex align-items-center'>" +
+                        labelTitle +
+                        '</div>';
+                    var bar =
+                        "<div class='bar-container position-relative container'><div class='" +
+                        prediction[i].className +
+                        "-box'></div><div class='d-flex justify-content-center align-items-center " +
+                        prediction[i].className +
+                        "-bar' style='width: " +
+                        barWidth +
+                        "'><span class='d-block percent-text'>" +
+                        Math.round(prediction[i].probability.toFixed(2) * 100) +
+                        '%</span></div></div>';
+                    labelContainer.childNodes[i].innerHTML = label + bar;
+                }
+            }
+        </script>
+    </body>
+    <!-- Copyright (c) 2021 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+</html>
