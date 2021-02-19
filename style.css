@@ -507,3 +507,9 @@ input:checked + label > .knob > i:before {
     border: solid 1.5px #35465d;
     background-color: #35465d;
 }
+.try-again-text {
+    color: white;
+}
+.announce {
+    text-align: center;
+}
