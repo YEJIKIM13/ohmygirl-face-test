@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap: https://omgresembletest.netlify.app/sitemap.xml
