@@ -497,6 +497,7 @@ input:checked + label > .knob > i:before {
 
 .ad-banner {
     max-width: 320px;
+    margin: 0 auto;
 }
 .footer {
     font-size: 0.5rem;
