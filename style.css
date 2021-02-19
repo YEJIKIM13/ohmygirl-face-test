@@ -499,6 +499,9 @@ input:checked + label > .knob > i:before {
     max-width: 320px;
     margin: 0 auto;
 }
+.banner-first {
+    margin-top: 20px;
+}
 .footer {
     font-size: 0.5rem;
     text-align: center;
